@@ -1,0 +1,78 @@
+.all_products{
+  min-height:100vh;
+  &_header{
+
+  }
+  &_h2{
+    position:relative;
+    font-size:clamp(1rem,3rem , 5rem);
+    color:$typocolor;
+    text-transform: uppercase;
+    font-weight:700;
+    text-align:center;
+    text-shadow:6px 6px 0 rgba(0,0,0,.2);
+    &:before{
+      content:"";
+      position:absolute;
+      width:25%;
+      height:1rem;
+      bottom:-50%;
+      right:50%;
+      color:$focus;
+      background-color:$focus;
+      transform:translate(50%,50%);
+    }
+  }
+
+}
+.small_products_grid{
+  margin-top:7rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+  align-items: center;
+  grid-template-rows: repeat(auto-fit, minmax(28rem, 1fr));
+  gap: 1rem;
+  justify-items: center;
+  justify-content: center;
+
+}
+.productSmall{
+  //background-image: url("../SVGs/patternpad (3).svg");
+  background-color:$colorBody ;
+ // background-blend-mode: multiply;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: space-between;
+  border-radius:.5rem;
+  text-transform: capitalize;
+  color:$typocolor;
+  &>*:not(img){
+    padding: 1rem;
+
+  }
+width:30rem;
+ height:30rem;
+  max-width: 80%;
+  box-shadow: 0 0 8px rgba(black,0.3);
+
+img{
+  width: 100%;
+  height:40%;
+  border-radius:.5rem;
+
+}
+
+}
+.product{
+  &_AddtoCart{
+    border:none;
+    outline:none;
+    cursor:pointer;
+    box-shadow: 0 0 8px rgba(black,0.3);
+    &:hover{
+      box-shadow: 0 0 0 rgba(black,0.3);
+
+    }
+  }
+}

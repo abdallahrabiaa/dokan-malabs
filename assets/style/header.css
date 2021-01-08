@@ -1,0 +1,23 @@
+.custom-shape-divider-bottom-1605544337 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg); }
+
+.custom-shape-divider-bottom-1605544337 svg {
+  position: relative;
+  display: block;
+  width: calc(185% + 1.3px);
+  height: 150px; }
+
+.custom-shape-divider-bottom-1605544337 .shape-fill {
+  fill: #E7E7DE; }
+
+.header {
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); }
+
+/*# sourceMappingURL=header.css.map */

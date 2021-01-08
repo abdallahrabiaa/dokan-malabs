@@ -1,0 +1,258 @@
+.custom-shape-divider-bottom-1605563806 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1605563806 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-bottom-1605563806 .shape-fill {
+  fill: #E7E7DE;
+}
+.header,{
+  &_typo{
+    width:30%;
+    @media all and (max-width:600px){
+       width:100%;
+    }
+  }
+  background-color: #0093E9;
+ background-image: linear-gradient(160deg, rgba(#0093E9,1) 0%, rgba(#80D0C7,.5) 100%),url('../imgs/clothesBack.jpg') ;
+  background-size: cover;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: space-between;
+  &_main{
+    text-shadow: 6px 6px 0 rgba(0,0,0,0.2);
+    display:flex;
+    width:100%;
+    height:calc(100% - 5rem);
+    align-items:center;
+    justify-content:space-between;
+    .h1Best{
+      font-size:clamp(1rem, 2rem,4rem);
+      text-transform:lowercase;
+      text-shadow: 6px 6px 0 rgba(0,0,0,0.2);
+    }
+    img{
+      @media all and (max-width:600px){
+       display:none;
+    }
+      position:relative;
+      max-width:100%;
+      max-height:100%;
+      overflow:hidden !important;
+    }
+  }
+  .container{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    height:5rem;
+    background-color:#121212;
+
+  }
+  &_button{
+    background-color:transparent;
+    border:none;
+    outline:none;
+    cursor:pointer;
+  }
+  &_assets{
+    @media all and(max-width:600px){
+      display:none;
+    }
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    width:20%;
+img {
+  width: 2rem;
+  height: 2rem;
+  background: none !important;
+
+
+}
+    a,button{
+      display:flex;
+      transition:all .3s;
+      align-items:center;
+      justify-content:center;
+      width:3rem;
+      height:3rem;
+      border-radius:50%;
+      &:hover{
+        background-color:$colorBody;
+      }
+    }
+
+  }
+}
+.nav{
+  display:flex;
+  list-style: none;
+  align-items:center;
+  justify-content:space-around;
+  flex:2;
+  @media all and (max-width:600px) {
+    display: none;
+
+  }
+  a{
+    transition:all .3s;
+    text-decoration:none;
+    color:$colorBody;
+    text-transform:uppercase;
+    h2{
+      font-weight:300;
+      font-size:clamp(.5rem,1.75rem,3rem);
+
+    }
+
+  }
+  height:100%;
+}
+.logoText{
+  text-transform:uppercase;
+  &2{
+    text-transform:uppercase;
+    font-size:5rem;
+    @media all and (max-width:600px) {
+      font-size:3rem;
+      
+    }
+    span{
+      color:$focus;
+    }
+
+  }
+span{
+  color:$focus;
+}
+}
+.nav_div{
+
+  &:hover{
+    color:$focus;
+  }
+}
+.header_addProduct{
+  .container{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    height:5rem;
+    background-color:#121212;
+
+  }
+
+
+}
+.main_addSection{
+  background-image: url("../SVGs/patternpad (3).svg");
+  height:100vh;
+  overflow:hidden;
+  background-color:#121212;
+  background-blend-mode:multiply;
+  h1{
+    font-size:4rem;
+    text-transform:uppercase;
+    text-shadow:6px 6px 0 rgba(black,0.2);
+  }
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+
+  &_form{
+    text-shadow:6px 6px 0 rgba(0,0,0,.2);
+    font-size:2rem;
+    text-transform: capitalize;
+*{
+border:none;
+  outline:none;
+}
+    input[type="text"],input[type="number"]{
+      width:500px;
+      height:3rem;
+      border-radius:5px;
+      color:$colorBody;
+
+
+    }
+    h2{
+      text-align:center;
+
+    }
+    .div{
+      display:flex;
+      align-items:center;
+      justify-content: center;
+    }
+    textarea{
+      width:1000px;
+    }
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:1500px;
+    flex-direction:column;
+    padding:1rem;
+    button{
+      background-color:#121212;
+
+
+    }
+  }
+
+}
+
+.btn-grad {background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%)}
+.btn-grad {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  font-family:inherit;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+.nav_anchor{
+  cursor:pointer !important;
+
+  transition :all .3s;
+}
+.sticky{
+  position:fixed;
+  top:0;
+  width:100%;
+  margin-bottom:1rem;
+  z-index:10;
+
+}
+.nav-item{
+
+}

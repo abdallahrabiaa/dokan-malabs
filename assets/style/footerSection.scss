@@ -1,0 +1,34 @@
+
+
+
+.footer{
+ position: relative;
+ margin-top:7rem !important; ;
+ height: 30vh;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: space-evenly;
+ background-color: $color1;
+ background-blend-mode: color-dodge;
+ .nav-list,.f-nav{
+   a:hover {
+   color:$focus;
+  }
+  list-style:none;
+  font-size:1.3rem;
+  display: flex;
+  flex-wrap:wrap;
+align-items: center;
+  justify-content: space-around;
+  width:100%;
+ }
+ //flex-wrap:wrap;
+ a{
+  text-decoration:none;
+  color:$colorBody;
+  text-transform:uppercase;
+ }
+ width:100%;
+ background-image:url("../imgs/shattered-island .gif");
+}
